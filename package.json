@@ -1,7 +1,7 @@
 {
-  "name": "redis-memoizer",
+  "name": "redis-memoizer-axios",
   "version": "1.0.3",
-  "description": "A memoizer using redis as a shared cache, with TTL.",
+  "description": "A memoizer using redis as a shared cache, with TTL for storing axios objects",
   "main": "index.js",
   "scripts": {
     "test": "./node_modules/mocha/bin/mocha --reporter spec --timeout 5000"
