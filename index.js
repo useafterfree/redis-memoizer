@@ -43,7 +43,7 @@ module.exports = client => {
     if(!name) throw new Error('You must provide a options.name for the function to memoize.');
 
     const ttlfn = typeof ttl === 'function' ? ttl : () => ttl;
-    
+
     const memoizedFunction = async function(...args) {
       const argsStringified = sha1(JSON.stringify(args));
 
